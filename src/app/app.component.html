@@ -1,0 +1,8 @@
+<input
+  type="text"
+  mask="Hh:m0"
+  [leadZeroDateTime]="true"
+  [validation]="true"
+  (change)="autofill($event)"
+  [(ngModel)]="value"
+/>
